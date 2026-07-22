@@ -5,14 +5,9 @@ function App() {
     <div>
       <Navbar />
 
-      <main className="text-center mt-20">
-        <h2 className="text-4xl font-bold">
-          Welcome to ShipTrack
-        </h2>
-
-        <p className="mt-4 text-gray-600">
-          Fast, secure and reliable shipping worldwide.
-        </p>
+      <main>
+        <h1>Welcome to ShipTrack</h1>
+        <p>Fast, secure and reliable shipping worldwide.</p>
       </main>
     </div>
   );
