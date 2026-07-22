@@ -1,10 +1,21 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
+import Navbar from "./components/Navbar";
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+function App() {
+  return (
+    <div>
+      <Navbar />
+
+      <main className="text-center mt-20">
+        <h2 className="text-4xl font-bold">
+          Welcome to ShipTrack
+        </h2>
+
+        <p className="mt-4 text-gray-600">
+          Fast, secure and reliable shipping worldwide.
+        </p>
+      </main>
+    </div>
+  );
+}
+
+export default App;
