@@ -18,23 +18,7 @@ function App() {
   );
 }
 
-export default App;        <div className="max-w-4xl mx-auto text-center">
-          <h3 className="text-3xl font-bold">
-            Track Your Shipment
-          </h3>
-
-          <div className="mt-8 flex justify-center gap-4">
-            <input
-              type="text"
-              placeholder="Enter Tracking Number"
-              className="border p-3 rounded-lg w-80"
-            />
-
-            <button className="bg-blue-700 text-white px-6 rounded-lg">
-              Track
-            </button>
-          </div>
-        </div>
+export default App;        </div>
       </section>
     </div>
   );
