@@ -5,15 +5,10 @@ function App() {
     <div>
       <Navbar />
 
-      <div className="text-center mt-20">
-        <h2 className="text-4xl font-bold">
-          Welcome to ShipTrack
-        </h2>
-
-        <p className="mt-4 text-gray-600">
-          Fast, secure and reliable shipping worldwide.
-        </p>
-      </div>
+      <main style={{ textAlign: "center", marginTop: "40px" }}>
+        <h1>Welcome to ShipTrack</h1>
+        <p>Fast, secure and reliable shipping worldwide.</p>
+      </main>
     </div>
   );
 }
