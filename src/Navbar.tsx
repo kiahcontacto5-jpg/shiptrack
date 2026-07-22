@@ -1,15 +1,20 @@
 export default function Navbar() {
   return (
-    <nav className="bg-blue-700 text-white p-4">
-      <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <h1 className="text-2xl font-bold">🚚 ShipTrack</h1>
+    <nav style={{
+      background: "#0B5ED7",
+      color: "white",
+      padding: "15px 30px",
+      display: "flex",
+      justifyContent: "space-between",
+      alignItems: "center"
+    }}>
+      <h2>🚚 ShipTrack</h2>
 
-        <div className="flex gap-6">
-          <a href="#">Home</a>
-          <a href="#">Track</a>
-          <a href="#">Services</a>
-          <a href="#">Contact</a>
-        </div>
+      <div style={{ display: "flex", gap: "20px" }}>
+        <a href="#" style={{ color: "white", textDecoration: "none" }}>Home</a>
+        <a href="#" style={{ color: "white", textDecoration: "none" }}>Track</a>
+        <a href="#" style={{ color: "white", textDecoration: "none" }}>Services</a>
+        <a href="#" style={{ color: "white", textDecoration: "none" }}>Contact</a>
       </div>
     </nav>
   );
